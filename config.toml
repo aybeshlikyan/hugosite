@@ -125,38 +125,32 @@ theme = "Highlights"
       enable = true
 
       [[params.footer.social]]
-        title = "Twitter"
-        icon = "fa-twitter"
-        link = "#"
-
-      [[params.footer.social]]
-        title = "Facebook"
-        icon = "fa-facebook"
-        link = "#"
-
-      [[params.footer.social]]
-        title = "Instagramm"
-        icon = "fa-instagram"
-        link = "#"
+        title = "Github"
+        icon = "fa-github"
+        link = "https://github.com/aybeshlikyan"
 
       [[params.footer.social]]
         title = "Dribbble"
         icon = "fa-dribbble"
-        link = "#"
+        link = "https://dribbble.com/arpi"
 
       [[params.footer.social]]
-        title = "Email"
-        icon = "fa-code"
-        link = "#"
+        title = "LinkedIn"
+        icon = "fa-linkedin"
+        link = "https://linkedin.com/in/aybeshlikyan"
+
+
+      [[params.footer.social]]
+        title = "Instagram"
+        icon = "fa-instagram"
+        link = "https://instagram.com/arpibee"
+
 
     # copyright
     #[params.footer.copyright.notice]
 
       [[params.footer.copyright.notice]]
-        text = "© Untitled"
+        text = "Copyright © 2020 by Arpi Beshlikyan "
 
       [[params.footer.copyright.notice]]
         text = "Design: [HTML5UP](//html5up.net)"
-
-      [[params.footer.copyright.notice]]
-        text = "Demo Images: [Unsplash](//unsplash.com/)"
