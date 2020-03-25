@@ -3,7 +3,7 @@
   <header class="major 1">
     <h1>{{ with $.block.title }} {{ . | markdownify }} {{ end }}</h1>
     <p>{{ with $.block.description }} {{ . | markdownify }} {{ end }}</p>
-    <li><a href="{{.block.resumelink}}" class="button">{{ with .block.resumetext }}{{ . | markdownify }}{{ end }}</a></li>
+    <a href="{{.block.resumelink}}" class="button">{{ with .block.resumetext }}{{ . | markdownify }}{{ end }}</a>
   </header>
   <div class="container">
     <ul class="actions">
